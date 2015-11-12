@@ -1,0 +1,366 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6094369304,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I should be able to update the Direct Debit details from bank account to Credit card then cancel the Direct Debit",
+        "description": "",
+        "id": "my-vodafone-postpay-customer-journeys.;i-should-be-able-to-update-the-direct-debit-details-from-bank-account-to-credit-card-then-cancel-the-direct-debit",
+        "after": [
+          {
+            "result": {
+              "duration": 36140250704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3366193713,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Vodafone login page",
+            "match": {
+              "location": "Postpay_steps.i_open_Vodafone_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10591755101,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"id\",\"selector\":\"userid\"}\nCommand duration or timeout: 10.04 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027H157512\u0027, ip: \u0027192.168.231.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d42.0, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: b6280f7a-39c3-423c-b02a-8a944e09a95b\n*** Element info: {Using\u003did, value\u003duserid}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:215)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat step_definitions.Postpay_steps.i_log_in_with_msisdn_and(Postpay_steps.java:190)\r\n\tat ✽.When I log in with \"postpay_complex\" msisdn and \"Password\"(features/Postpay.feature:8)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"id\",\"selector\":\"userid\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027H157512\u0027, ip: \u0027192.168.231.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARKASA~1/AppData/Local/Temp/anonymous6764218163425308867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/ARKASA~1/AppData/Local/Temp/anonymous6764218163425308867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I log in with \"postpay_complex\" msisdn and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postpay_complex",
+                  "offset": 15
+                },
+                {
+                  "val": "Password",
+                  "offset": 44
+                }
+              ],
+              "location": "Postpay_steps.i_log_in_with_msisdn_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to Bills \u0026 Payments Page",
+            "match": {
+              "location": "Postpay_steps.i_navigate_to_Bills_Payments_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter a valid pin and submit",
+            "match": {
+              "location": "Postpay_steps.i_enter_a_valid_pin_and_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select Setup Direct Debit option",
+            "match": {
+              "location": "Postpay_steps.i_select_Setup_Direct_Debit_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select the Credit Card option for Direct Debit",
+            "match": {
+              "location": "Postpay_steps.i_select_the_Credit_Card_option_for_Direct_Debit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the credit card details",
+            "match": {
+              "location": "Postpay_steps.i_enter_the_credit_card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I submit request",
+            "match": {
+              "location": "Postpay_steps.i_submit_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the setup success message",
+            "match": {
+              "location": "Postpay_steps.i_should_see_the_setup_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I navigate to Bills \u0026 Payments Page",
+            "match": {
+              "location": "Postpay_steps.i_navigate_to_Bills_Payments_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I select Manage Direct Debit option",
+            "match": {
+              "location": "Postpay_steps.i_select_Manage_Direct_Debit_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I select Cancel Direct Debit option",
+            "match": {
+              "location": "Postpay_steps.i_select_Cancel_Direct_Debit_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I should see the cancellation success message",
+            "match": {
+              "location": "Postpay_steps.i_should_see_the_cancellation_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "Current page URL ishttps://www.myvodafone.com.au/auth/login?url\u003dhttps%3A%2F%2Fmyaccount.myvodafone.com.au%2F\u0026pcode\u003dmybill"
+            ],
+            "embeddings": [
+              {
+                "data": "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\u003d",
+                "mime_type": "image/png"
+              }
+            ],
+            "line": 20,
+            "name": "I logout",
+            "match": {
+              "location": "Postpay_steps.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Vodafone Postpay customer journeys.",
+    "description": "As a tester\nI want to log in to My Vodafone.",
+    "id": "my-vodafone-postpay-customer-journeys.",
+    "keyword": "Feature",
+    "uri": "features/Postpay.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@VodafonePostpay"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4266505029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Logged in prepay user and navigate to international calling page to update statusl",
+        "description": "",
+        "id": "my-vodafone-prepay-customer-journeys.;logged-in-prepay-user-and-navigate-to-international-calling-page-to-update-statusl",
+        "after": [
+          {
+            "result": {
+              "duration": 2014172261,
+              "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027H157512\u0027, ip: \u0027192.168.231.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:459)\r\n\tat step_definitions.Hooks.embedScreenshot(Hooks.java:37)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:211)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)\r\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\r\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\r\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\r\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\r\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\r\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\r\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)\r\n\t... 40 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.PlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.SocksSocketImpl.connect(Unknown Source)\r\n\tat java.net.Socket.connect(Unknown Source)\r\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)\r\n\t... 55 more\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2358328477,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Vodafone login page",
+            "match": {
+              "location": "Postpay_steps.i_open_Vodafone_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4518767818,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I log in with an \"prepay_voice\" msisdn and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prepay_voice",
+                  "offset": 18
+                },
+                {
+                  "val": "Password",
+                  "offset": 44
+                }
+              ],
+              "location": "Prepay_steps.i_log_in_with_an_msisdn_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9364264610,
+              "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027H157512\u0027, ip: \u0027192.168.231.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:397)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:243)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat step_definitions.Prepay_steps.i_navigate_to_International_Calling_page(Prepay_steps.java:37)\r\n\tat ✽.Then I navigate to International Calling page(features/Prepay.feature:9)\r\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)\r\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\r\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\r\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\r\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\r\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\r\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\r\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:397)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:243)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat step_definitions.Prepay_steps.i_navigate_to_International_Calling_page(Prepay_steps.java:37)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.PlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.SocksSocketImpl.connect(Unknown Source)\r\n\tat java.net.Socket.connect(Unknown Source)\r\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)\r\n\t... 61 more\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I navigate to International Calling page",
+            "match": {
+              "location": "Prepay_steps.i_navigate_to_International_Calling_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I change my existing International Calling settings",
+            "match": {
+              "location": "Prepay_steps.i_change_my_existing_International_Calling_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I save the International Calling settings",
+            "match": {
+              "location": "Prepay_steps.i_save_the_International_Calling_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see my updated International Calling settings status",
+            "match": {
+              "location": "Prepay_steps.i_should_see_my_updated_International_Calling_settings_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I logout",
+            "match": {
+              "location": "Postpay_steps.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Vodafone Prepay customer journeys.",
+    "description": "As a tester\r\nI want to log in to My Vodafone.",
+    "id": "my-vodafone-prepay-customer-journeys.",
+    "keyword": "Feature",
+    "uri": "features/Prepay.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@VodafonePrepay"
+      }
+    ]
+  }
+]
